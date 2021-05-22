@@ -26,7 +26,7 @@ function App() {
         <IconButton
           icon={<FaLinkedin />}
           isRound="true"
-          onClick={() => window.open("http://toupawa.com")}
+          onClick={() => window.open("https://www.linkedin.com/in/washira-suyajai-696903199/")}
         ></IconButton>
         <IconButton
           ml={2}
