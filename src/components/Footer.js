@@ -1,18 +1,16 @@
 import Icon from "@chakra-ui/icon";
 import { HStack, Stack, Text } from "@chakra-ui/layout";
-import {
-  FaFacebookF,
-  FaGithub,
-  FaLinkedin,
-  FaTwitter,
-} from "react-icons/fa";
+import { FaFacebookF, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import React from "react";
+import { Box } from "@chakra-ui/layout";
 
 function Footer() {
   return (
     <Stack>
-      <Text>Copyright 2021, Toupawa Studio.</Text>
-      <HStack spacing="12">
+      <Box alignSelf="center">
+        <Text>Copyright 2021, Toupawa Studio.</Text>
+      </Box>
+      <HStack spacing="8" alignSelf="center">
         <Icon
           as={FaFacebookF}
           boxSize="5"
